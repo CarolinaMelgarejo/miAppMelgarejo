@@ -10,7 +10,8 @@ const Navbar = () => {
                 <button className="option">Contacto</button>
             </div>
             <div className= "rigthNav"> 
-                <button className="option">Carrito</button>
+                <button className="option">
+                <img src="carrito.png" className="carrito" alt="carrito" />  Carrito</button>
                 <button className="option">Ingresar</button>
             </div>
         </nav>

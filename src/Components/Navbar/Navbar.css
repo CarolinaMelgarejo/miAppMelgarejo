@@ -30,3 +30,9 @@
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
 }
+
+.carrito{
+    width: 35%;
+    height: 65%;
+    border-radius: 30%;
+}
