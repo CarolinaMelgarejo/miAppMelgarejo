@@ -1,6 +1,7 @@
 import  './Navbar.css'
 
 
+
 const Navbar = () => {
     return (
         <nav className = "Navbar">
@@ -9,6 +10,9 @@ const Navbar = () => {
                 <button className="option">Coleccion</button>
                 <button className="option">Contacto</button>
             </div>
+
+   
+
             <div className= "rigthNav"> 
                 <button className="option">
                 <img src="carrito.png" className="carrito" alt="carrito" />  Carrito</button>
