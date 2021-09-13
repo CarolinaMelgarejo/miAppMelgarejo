@@ -1,0 +1,22 @@
+.listaProducto{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.lista{
+    list-style: none;
+    border: 1px solid black;
+    width: 18vw;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    
+}
