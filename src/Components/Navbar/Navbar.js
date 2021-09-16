@@ -2,8 +2,7 @@ import  './Navbar.css'
 import { NavLink, Link } from 'react-router-dom'
 
 
-
-const Navbar = (roductos) => {
+const Navbar = (productos) => {
     return (
         <nav className = "Navbar">
 
@@ -15,8 +14,10 @@ const Navbar = (roductos) => {
             Coleccion
             </NavLink>
             <NavLink to="/products" activeClassName="navLink" className="option" >
-            Muebles
+            Sillas
             </NavLink>
+    
+           
             <NavLink to="/contacto" activeClassName="navLink" className="option" >
             Contacto
             </NavLink>

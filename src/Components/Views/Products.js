@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import ItemList from "./Components/ItemList/ItemList";
+import ItemList from '../ItemList/ItemList'
+import products from '../Views/products.css'
 
 const productos = [
     {id:'01', producto:'Escritorio Sunny', descripcion:'',precio:'$1500', stock:'3'},
@@ -38,9 +39,10 @@ const Products = () => {
     }
     
     return (
-      <div>
-        <h1>Products</h1>
+      <div className="productos">
+        <h1>Productos</h1>
         <ItemList products={products}/>
+    
       </div>
     );
   }

@@ -19,19 +19,19 @@ const productos = [
 function getProducts() {
 
     return new Promise((resolve, reject) =>{
-        setTimeout( () => resolve(productos), 1000)
+        setTimeout( () => resolve(productos), 2000)
     }  )
 }
 
 const Product = () => {
   const { name } = useParams()
-  const [products, setProduct] = useState(undefined)
+  const [product, setProduct] = useState(undefined)
 
   useEffect(() => {
     const listProducts = getProducts()
     listProducts.then(result => {
-      const products = result.find(prod => prod.name === name)
-      setProduct(productos)
+      const product = result.find(prod => prod.name === name)
+      setProduct(product)
     })
     return (() => {
       setProduct(undefined)
@@ -40,7 +40,7 @@ const Product = () => {
     
 
   return (
-      <Item item={productos} />
+      <Item item={product} />
   )
 }
 
